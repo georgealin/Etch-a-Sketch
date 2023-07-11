@@ -1,6 +1,6 @@
 function createDiv() {
     const newDiv = document.createElement('div');
-    newDiv.textContent = "someee";
+    newDiv.classList.add('divs');
     document.getElementsByClassName('container')[0].appendChild(newDiv);
 };
 
