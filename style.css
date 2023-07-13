@@ -12,7 +12,10 @@ body {
 }
 
 #squareNumbers,
-#emptyButton {
+#emptyButton,
+#eraserButton,
+#grayButton,
+#rainbowButton {
     border-width: 2px;
     border-radius: 8px;
     height: 30px;
@@ -25,4 +28,9 @@ body {
     justify-content: center;
     align-items: center;
     gap: 15px;
+}
+
+#squareSize {
+    font-size: 25px;
+    font-weight: bold;
 }
