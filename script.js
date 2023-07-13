@@ -60,4 +60,13 @@ function clearContainer () {
     container[0].removeChild(container[0].firstChild);
     }
 }
+// add button to empty the containerelement
+let emptyButton =  document.getElementById('emptyButton');
+emptyButton.addEventListener('click', function () {
+    clearContainer();
+for (let i = 0; i < size * size; i++) {
+    createDiv();};
+    resizeContainer();
+    changeColor();
+})
 
